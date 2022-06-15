@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Clear Sans';
+    font-weight: 100;
+    src: url('../public/ClearSans/ClearSans-Thin-webfont.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'Clear Sans';
+    font-weight: 300;
+    src: url('../public/ClearSans/ClearSans-Light-webfont.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'Clear Sans';
+    font-weight: 400;
+    src: url('../public/ClearSans/ClearSans-Regular-webfont.woff')
+      format('woff');
+  }
+  @font-face {
+    font-family: 'Clear Sans';
+    font-weight: 400;
+    font-style: italic;
+    src: url('../public/ClearSans/ClearSans-Italic-webfont.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'Clear Sans';
+    font-weight: 500;
+    src: url('../public/ClearSans/ClearSans-Medium-webfont.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'Clear Sans';
+    font-weight: 500;
+    font-style: italic;
+    src: url('../public/ClearSans/ClearSans-MediumItalic-webfont.woff')
+      format('woff');
+  }
+  @font-face {
+    font-family: 'Clear Sans';
+    font-weight: 700;
+    src: url('../public/ClearSans/ClearSans-Bold-webfont.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'Clear Sans';
+    font-weight: 700;
+    font-style: italic;
+    src: url('../public/ClearSans/ClearSans-BoldItalic-webfont.woff')
+      format('woff');
+  }
+}
