@@ -8,7 +8,7 @@ const Podcast = () => {
         <div className="bg-black">
             <Head>
             <title>Bankless Africa Podcast</title>
-            <link rel='icon' href='/favicon.ico' />
+            <link rel='icon' href='../public/favicon.png' />
       </Head>
             <Navbar />
             <div className="bg-bgEdu min-w-screen h-auto bg-100% bg-no-repeat bg-center mt-8 md:mt-6 py-20 sm:py-40 md:py-52 xl:py-64 2xl:py-80 px-8">
