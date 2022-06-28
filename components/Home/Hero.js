@@ -39,7 +39,9 @@ const Hero = () => {
         <Card page="/learn-crypto" title="Learn Crypto" description="Start your crypto journey with our easy to understand educated resources." url={card1} />
 
         <Card page="#" title="Social Impact" description="Start your crypto journey with our easy to understand educated resources." url={card2} />
-        <Card title="News" description="Start your crypto journey with our easy to understand educated resources." url={card3} />
+        <a href="https://banklessafrica.substack.com/" target='_blank'>
+          <Card title="News" description="Start your crypto journey with our easy to understand educated resources." url={card3} />
+        </a>
         </div>
 
     </div>
