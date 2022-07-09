@@ -19,8 +19,8 @@ const Partner = () => {
 
       {/* Partners logo */}
       <div className="flex flex-col items-center gap-16 xl:gap-32 md:flex-row md:px-24 lg:gap-8">
-        <Image src={bitcoin} alt="bitcoin" className="animate-shakey" />
-        <Image src={dao} alt="dao" className="" />
+        <a href="https://bitcoinmagazine.com/" target="_blank"><Image src={bitcoin} alt="bitcoin" className="animate-shakey" /></a>
+        <a href="https://www.bankless.community/" target="_blank"><Image src={dao} alt="dao" className="" /></a>
         <Image src={carbon} alt="carbon-collectible-nfts" className="" />
       </div>
     </div>
