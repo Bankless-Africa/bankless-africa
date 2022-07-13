@@ -1,8 +1,8 @@
-import React, { useState } from "react";
-import Image from "next/image";
-import Link from "next/link";
-import logo from "../../asset/Images/logo.svg";
-import { Transition } from "@headlessui/react";
+import React, { useState } from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+import logo from '../../asset/Images/logo.png';
+import { Transition } from '@headlessui/react';
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isActive, setIsActive] = useState(false);
@@ -15,12 +15,18 @@ const Navbar = () => {
             <div className="flex items-center w-full mx-5 items lg:mx-14 xl:mx-24">
               <div className="flex items-center justify-center flex-shrink-0 ">
                 <div className="w-40 h-20 cursor-pointer md:w-56 md:h-16">
-                <Link href="/">
+                  <Link href="/">
                     <a>
-                  <Image src={logo} alt="bankless africa logo" width={90} height={90} className="" />
-                </a>
-                </Link>
-                  </div>
+                      <Image
+                        src={logo}
+                        alt="bankless africa logo"
+                        width={140}
+                        height={60}
+                        className=""
+                      />
+                    </a>
+                  </Link>
+                </div>
               </div>
               <div className="hidden md:block">
                 <div className="flex ml-0 space-x-14 md:space-x-7 xl:space-x-14 lg:ml-36">
@@ -128,23 +134,23 @@ const Navbar = () => {
                   </a>
                 </Link>
                 <Link href="/learn-crypto">
-                <a className="block px-3 py-2 text-base font-medium text-white rounded-md cursor-pointer hover:bg-red-600">
-                      Learn Crypto
-                    </a>
-                  </Link>
+                  <a className="block px-3 py-2 text-base font-medium text-white rounded-md cursor-pointer hover:bg-red-600">
+                    Learn Crypto
+                  </a>
+                </Link>
                 <Link href="/podcast">
                   <a className="block px-3 py-2 text-base font-medium text-white rounded-md cursor-pointer hover:bg-red-600">
                     Podcast
                   </a>
                 </Link>
                 <a
-                    target="_blank"
-                    className="px-3 py-2 text-lg font-bold text-white rounded-md cursor-pointer hover:bg-red-600"
-                    href="https://medium.com/@banklessafrica/"
-                    rel="noopener noreferrer"
-                  >
-                    Blog
-                  </a>
+                  target="_blank"
+                  className="px-3 py-2 text-lg font-bold text-white rounded-md cursor-pointer hover:bg-red-600"
+                  href="https://medium.com/@banklessafrica/"
+                  rel="noopener noreferrer"
+                >
+                  Blog
+                </a>
               </div>
             </div>
           )}
