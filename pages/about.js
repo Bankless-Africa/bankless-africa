@@ -21,6 +21,7 @@ const About = () => {
         <Head>
             <title>About Bankless Africa</title>
             <link rel='icon' href='/favicon.ico' />
+           
       </Head>
       <div className="flex flex-col">
           <Navbar />
