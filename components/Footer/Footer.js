@@ -29,10 +29,11 @@ const Footer = () => {
                 </Link>
               </div>
               <div>
-                <a target="_blank"
-              className="px-3 py-2 text-lg font-bold text-white rounded-md cursor-pointer hover:bg-red-600"
-              href="https://banklessafrica.podbean.com/"
-              rel="noopener noreferrer">Learn Crypto</a>
+              <Link href="/learn-crypto" >
+              <a className="px-3 py-2 text-lg font-bold text-white rounded-md cursor-pointer hover:bg-red-600">
+                Learn Crypto
+                </a>
+                </Link>
               </div>
             </div>
             <div className="flex flex-col">
@@ -97,10 +98,11 @@ const Footer = () => {
                 </Link>
               </div>
               <div>
-                <a target="_blank"
-              className="px-3 py-2 text-lg font-bold text-white rounded-md cursor-pointer hover:bg-red-600"
-              href="https://banklessafrica.com/learn-crypto/"
-              rel="noopener noreferrer">Learn Crypto</a>
+              <Link href="/learn-crypto" >
+              <a className="px-3 py-2 text-lg font-bold text-white rounded-md cursor-pointer hover:bg-red-600">
+                Learn Crypto
+                </a>
+                </Link>
               </div>
               <div>
                 <a target="_blank"
