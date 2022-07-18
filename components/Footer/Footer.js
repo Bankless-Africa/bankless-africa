@@ -99,7 +99,7 @@ const Footer = () => {
               <div>
                 <a target="_blank"
               className="px-3 py-2 text-lg font-bold text-white rounded-md cursor-pointer hover:bg-red-600"
-              href="https://banklessafrica.podbean.com/"
+              href="https://banklessafrica.com/learn-crypto/"
               rel="noopener noreferrer">Learn Crypto</a>
               </div>
               <div>
