@@ -2,17 +2,19 @@ import Head from 'next/head'
 import Navbar from '../components/Nav/Navbar'
 import Footer from '../components/Footer/Footer'
 import Newsletter from '../components/Home/Newsletter'
+import Course from '../components/Learn-Crypto/Course'
 
 const Learn = () => {
     return(
-        <div className="bg-black">
+        <div>
             <Head>
             <title>Learn Crypto | Bankless Africa</title>
             <link rel='icon' href='/favicon.ico' />
-      </Head>
-      <Navbar/>
+            </Head>
+            <Navbar/>
+            <Course />
             <Newsletter />
-          <Footer />
+            <Footer />
         </div>
     );
 }

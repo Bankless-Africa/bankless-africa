@@ -29,10 +29,11 @@ const Footer = () => {
                 </Link>
               </div>
               <div>
-                <a target="_blank"
-              className="px-3 py-2 text-lg font-bold text-white rounded-md cursor-pointer hover:bg-red-600"
-              href="https://banklessafrica.podbean.com/"
-              rel="noopener noreferrer">Learn Crypto</a>
+              <Link href="/learn-crypto" >
+              <a className="px-3 py-2 text-lg font-bold text-white rounded-md cursor-pointer hover:bg-red-600">
+                Learn Crypto
+                </a>
+                </Link>
               </div>
             </div>
             <div className="flex flex-col">
@@ -97,10 +98,11 @@ const Footer = () => {
                 </Link>
               </div>
               <div>
-                <a target="_blank"
-              className="px-3 py-2 text-lg font-bold text-white rounded-md cursor-pointer hover:bg-red-600"
-              href="https://banklessafrica.podbean.com/"
-              rel="noopener noreferrer">Learn Crypto</a>
+              <Link href="/learn-crypto" >
+              <a className="px-3 py-2 text-lg font-bold text-white rounded-md cursor-pointer hover:bg-red-600">
+                Learn Crypto
+                </a>
+                </Link>
               </div>
               <div>
                 <a target="_blank"
@@ -148,7 +150,7 @@ const Footer = () => {
       
       
       </div>
-      <footer className="mt-12 text-xs font-normal text-center md:text-sm md:pb-8 lg:text-sm lg:pb-12">
+      <footer className="mt-12 text-xs font-normal text-center md:text-sm md:pb-8 lg:text-lg lg:pb-12">
         Copyright © 2022 Bankless Africa | Powered by Bankless Africa
       </footer>
     </div>
