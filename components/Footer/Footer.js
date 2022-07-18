@@ -148,7 +148,7 @@ const Footer = () => {
       
       
       </div>
-      <footer className="mt-12 text-xs font-normal text-center md:text-sm md:pb-8 lg:text-sm lg:pb-12">
+      <footer className="mt-12 text-xs font-normal text-center md:text-sm md:pb-8 lg:text-lg lg:pb-12">
         Copyright © 2022 Bankless Africa | Powered by Bankless Africa
       </footer>
     </div>
