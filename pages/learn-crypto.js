@@ -11,7 +11,7 @@ const Learn = () => {
             <title>Learn Crypto | Bankless Africa</title>
             <link rel='icon' href='/favicon.ico' />
             </Head>
-            <Navbar/>
+            <Navbar component="learn"/>
             <Course />
             <Newsletter />
             <Footer />
