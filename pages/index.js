@@ -21,7 +21,7 @@ export default function Home() {
       </Head>
 
       {/* Navbar Section */}
-      <Navbar />
+      <Navbar component="home" />
 
       {/* Main Section */}
       <main className='bg-black'>
