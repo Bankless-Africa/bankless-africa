@@ -24,7 +24,7 @@ const About = () => {
            
       </Head>
       <div className="flex flex-col">
-          <Navbar />
+          <Navbar component="about" />
           <div className="bg-aboutBg1 min-w-screen h-auto bg-100% bg-no-repeat bg-center -mt-2 md:mt-6 pt-20 pb-32 sm:pt-40 sm:pb-52 md:pt-36 md:pb-64 lg:px-24
           xl:pb-72 2xl:pb-80 px-8">
             <h1 className="mb-4 text-3xl font-bold text-center text-white lg:text-5xl">About Bankless Africa</h1>
