@@ -19,7 +19,8 @@ const Past = ({ data }) => {
                         duration={data.duration_ms} />)
                 }
             </div>
-            <button className="bg-red-600 text-white font-semibold text-center rounded-lg">See more</button>
+            <div className="w-full flex justify-center"><button className="bg-red-600 text-white font-semibold text-center rounded-lg p-3">See more</button></div>
+            
              
         </div>
     )
