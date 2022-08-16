@@ -3,7 +3,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { useEffect, useState } from "react"
 
-const PastPodcastCards = ({ id, title, description, thumbnail, duration, href, audio }) => {
+const PastPodcastCards = ({ id, title, description, thumbnail, duration, href }) => {
 
     const hours = Math.floor((duration % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))
     const mins = Math.floor((duration % (1000 * 60 * 60)) / (1000 * 60))

@@ -11,7 +11,6 @@ const Upcoming = ({ data }) => {
                         key={data.id}
                         id={data.id}
                         href={data.external_urls.spotify}
-                        audio={data.audio_preview_url}
                         thumbnail={data.images[0].url}
                         author={data.author}
                         title={data.name}
