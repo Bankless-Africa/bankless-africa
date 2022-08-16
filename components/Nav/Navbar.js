@@ -5,12 +5,12 @@ import logo from '../../asset/Images/logo.png';
 import { Transition } from '@headlessui/react';
 const Navbar = ({component}) => {
   const [isOpen, setIsOpen] = useState(false);
-  const [isActive, setIsActive] = useState(false); console.log(component)
+  const [isActive, setIsActive] = useState(false);
 
   return (
     <div>
       <nav className="relative z-10 w-full bg-black shadow-sm">
-        <div className="w-full">
+        <div className="w-full flex flex-col items-center">
           <div className="flex items-center w-full h-20">
             <div className="flex items-center w-full mx-5 items lg:mx-14 xl:mx-24">
               <div className="flex items-center justify-center flex-shrink-0 ">
@@ -18,7 +18,7 @@ const Navbar = ({component}) => {
                   <Link href="/">
                     <a>
                       <Image
-                        src={logo}
+                        src={component === "podcast" ? "/bankless.png" : logo}
                         alt="bankless africa logo"
                         width={140}
                         height={60}
@@ -28,32 +28,32 @@ const Navbar = ({component}) => {
                   </Link>
                 </div>
               </div>
-              <div className="hidden md:block">
-                <div className="flex ml-0 space-x-14 md:space-x-7 xl:space-x-14 lg:ml-36">
+              <div className="hidden md:block md:w-full lg:w-auto">
+                <div className="flex justify-between w-full space-x-14 md:space-x-0 xl:space-x-14 lg:ml-36 items-center">
                   <Link href="/">
                     <a className={
-                      component === "home" || component === "" ? "px-3 py-2 text-lg font-bold text-red-600 cursor-pointer hover:font-black" : "px-3 py-2 text-lg font-bold text-white cursor-pointer hover:font-black"
+                      component === "home" || component === "" ? "px-3 py-2 text-lg font-bold text-red-600 cursor-pointer hover:font-black" : "py-2 text-lg font-bold text-white cursor-pointer hover:font-black"
                     }>
                       Home
                     </a>
                   </Link>
                   <Link href="/about">
                     <a className={
-                      component === "about" ? "px-3 py-2 text-lg font-bold text-red-600 cursor-pointer hover:font-black" : "px-3 py-2 text-lg font-bold text-white cursor-pointer hover:font-black"
+                      component === "about" ? "px-3 py-2 text-lg font-bold text-red-600 cursor-pointer hover:font-black" : "py-2 text-lg font-bold text-white cursor-pointer hover:font-black"
                     }>
                       About
                     </a>
                   </Link>
                   <Link href="/learn-crypto">
                     <a className={
-                      component === "learn" ? "px-3 py-2 text-lg font-bold text-red-600 cursor-pointer hover:font-black" : "px-3 py-2 text-lg font-bold text-white cursor-pointer hover:font-black"
+                      component === "learn" ? "px-3 py-2 text-lg font-bold text-red-600 cursor-pointer hover:font-black" : "py-2 text-lg font-bold text-white cursor-pointer hover:font-black"
                     }>
                       Learn Crypto
                     </a>
                   </Link>
                   <Link href="/podcast">
                     <a className={
-                      component === "podcast" ? "px-3 py-2 text-lg font-bold text-red-600 cursor-pointer hover:font-black" : "px-3 py-2 text-lg font-bold text-white cursor-pointer hover:font-black"
+                      component === "podcast" ? "px-3 py-2 text-lg font-bold text-red-600 cursor-pointer hover:font-black" : "py-2 text-lg font-bold text-white cursor-pointer hover:font-black"
                     }>
                       Podcast
                     </a>
@@ -61,7 +61,7 @@ const Navbar = ({component}) => {
                   <a
                     target="_blank"
                     className={
-                      component === "blog" ? "px-3 py-2 text-lg font-bold text-red-600 cursor-pointer hover:font-black" : "px-3 py-2 text-lg font-bold text-white cursor-pointer hover:font-black"
+                      component === "blog" ? "px-3 py-2 text-lg font-bold text-red-600 cursor-pointer hover:font-black" : "py-2 text-lg font-bold text-white cursor-pointer hover:font-black"
                     }
                     href="https://medium.com/@banklessafrica/"
                     rel="noopener noreferrer"

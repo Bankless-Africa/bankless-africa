@@ -28,7 +28,9 @@ module.exports = {
         small: "640px"
       },
       colors: {
-        darkBlack: "#171717"
+        darkBlack: "#171717",
+        ash: "#263238",
+        lightAsh: "#34454E",
       }
     },
   },

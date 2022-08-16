@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import logo from "../../asset/Images/logo.svg";
 import { Transition } from "@headlessui/react";
-import Podcast from "../../pages/podcast";
 
 const PodcastNav = () => {
   const [isOpen, setIsOpen] = useState(false);

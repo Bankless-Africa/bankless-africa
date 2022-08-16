@@ -5,11 +5,11 @@ import youtube from "../../asset/Images/youtube.png";
 import medium from "../../asset/Images/Medium.png";
 import telegram from "../../asset/Images/telegram.png";
 import Link from "next/link";
-const Footer = () => {
+const Footer = ({ component }) => {
   return (
     <div className="items-center py-4 text-white bg-black px-14 xl:px-10">
       <header className="items-center mx-20 md:mx-0 xl:mx-4 2xl:mx-20 xl:mt-14 ">
-        <Image src={logo} width={140} height={60} alt="footer" />
+        <Image src={component === "podcast" ? "/bankless.png" : logo} width={140} height={60} alt="footer" />
       </header>
       <div className="flex-row justify-between hidden text-left items-left xl:flex xl:mt-12 xl:mx-10 2xl:mx-24 xl:gap-20">
           <p className="max-w-lg mt-5 text-xl leading-6 text-left text-gray-200 md:mt-6">
