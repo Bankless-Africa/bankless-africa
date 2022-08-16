@@ -37,7 +37,7 @@ const Podcast = () => {
             <div className="pb-10 bg-black">
                 {
                     token ? <SpotifyItems token={token} /> : <div className='text-center py-10'>
-                        <Link href={`${AUTH_ENDPOINT}?client_id=${process.env.CLIENT_ID}&redirect_uri=http://localhost:3000/podcast&response_type=token`}>
+                        <Link href={`${AUTH_ENDPOINT}?client_id=${process.env.CLIENT_ID}&redirect_uri=https://bankless-africa.vercel.app/podcast&response_type=token`}>
                             <a>
                                 <button className='bg-green-600 text-white font-semibold rounded-lg p-3'>Login With Spotify</button>
                             </a>
