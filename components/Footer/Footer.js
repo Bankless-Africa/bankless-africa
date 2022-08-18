@@ -43,6 +43,13 @@ const Footer = () => {
               href="https://medium.com/@banklessafrica/"
               rel="noopener noreferrer">Bankless Africa Blog</a>
               </div>
+              <div>
+              <Link href="/privacy-policy" >
+              <a className="px-3 py-2 text-lg font-bold text-white rounded-md cursor-pointer hover:bg-red-600">
+                Privacy Policy
+                </a>
+                </Link>
+              </div>
             </div>
           </div>
           <div className="flex flex-row gap-10 mt-4">
