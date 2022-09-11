@@ -206,7 +206,7 @@ const Policy = () => {
                 <p className="mb-1">
                 Accessing, Updating, Correcting, and Deleting your data <br />
                 Every User of our Platform may access data that was voluntarily provided whenever they use our platform. Users can also review, correct or delete their requisite data on our platform if such data exist. This can be done when such user send us a request via 
-                &nbsp;<a className="underline text-blue-400" href="mailto:contact@bankless.com"><strong>contact@bankless.com</strong></a>. 
+                &nbsp;<a className="underline text-blue-400" href="mailto:contact@banklessafrica.com"><strong>contact@banklessafrica.com</strong></a>. 
                 </p>
                 <p className="mb-1">
                 Users may decide to request the changing of contact choices or even opt-out of our sharing with others, and update their personal data and preferences.
@@ -216,7 +216,7 @@ const Policy = () => {
                 </span>
                 <span className="mt-1">
                 <strong>Contact Us</strong> <br />
-                We welcome the suggestions of our users on this Policy, and you may contact us at: <a className="underline text-blue-400" href="mailto:contact@bankless.com"><strong>contact@bankless.com</strong></a>
+                We welcome the suggestions of our users on this Policy, and you may contact us at: <a className="underline text-blue-400" href="mailto:contact@banklessafrica.com"><strong>contact@banklessafrica.com</strong></a>
                 </span>
                 </p>
             </p>
