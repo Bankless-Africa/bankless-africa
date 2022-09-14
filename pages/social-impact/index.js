@@ -1,17 +1,17 @@
 import Head from "next/head";
-import Navbar from "../components/Nav/Navbar";
-import Footer from "../components/Footer/Footer";
-import Newsletter from "../components/Home/Newsletter";
-import Card from "../components/Social-Impact/Card";
-import Academy from '../asset/Images/Academy_Banner.jpg'
+import Navbar from "../../components/Nav/Navbar";
+import Footer from "../../components/Footer/Footer";
+import Newsletter from "../../components/Home/Newsletter";
+import Card from "../../components/Social-Impact/Card";
+import Academy from '../../asset/Images/Academy_Banner.jpg'
 
-const Underline = () => <hr className="w-4/5 mx-auto mt-3 border-0 rounded-md h-2 bg-gradient-to-r from-red-700 to-blue-700" />
+export const Underline = () => <hr className="w-4/5 mx-auto mt-3 border-0 rounded-md h-2 bg-gradient-to-r from-red-700 to-blue-700" />
 
 const DummyData = {
     title: 'Learn Crypto',
     description: 'Start your crypto journey with our easy to understand educated resources. Start your crypto journey withour easy to',
     image: Academy,
-    url: './com1'
+    url: '/social-impact/com1'
 }
 
 const SocialImpact = () => {
