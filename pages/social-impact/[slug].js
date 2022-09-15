@@ -1,11 +1,13 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import Navbar from "../../components/Nav/Navbar";
 import Footer from "../../components/Footer/Footer";
 import Newsletter from "../../components/Home/Newsletter";
 import { Underline } from ".";
 import Academy from '../../asset/Images/Academy_Banner.jpg'
 import ProjectCard from "../../components/Social-Impact/Project-Card";
+import { FaLink } from "react-icons/fa";
 
 
 const data = {
@@ -13,7 +15,7 @@ const data = {
         members: 100,
         posts: 200
     },
-    projects: [
+    projects: Array.from(Array(3).fill(
         {
             title: 'Community Events',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitorLorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna.',
@@ -22,12 +24,14 @@ const data = {
                 image: Academy
             },
             metric: {
-                date: new Date(),
+                date: new Date().toDateString(),
                 likes: 10,
                 comments: 23
-            }
-        }
-    ]
+            },
+        },
+    )),
+    members: Array.from(Array(10).fill({name: 'John Smith', image: Academy})),
+    url: 'https://community.farewell.com'
 }
 
 
@@ -41,7 +45,7 @@ const SocialDetail = () => {
             {/* Navbar Section */}
             <Navbar component="home" />
 
-            <section className="w-10/12 mx-auto min-h-screen py-12 my-5">
+            <section className="w-10/12 mx-auto min-h-screen py-7 my-5">
                 <h1 className="font-black mx-auto w-fit text-4xl mb-8">
                     Social <span className="text-red-600">Impact</span>
                     <Underline />
@@ -89,6 +93,26 @@ const SocialDetail = () => {
 
                         <div className="h-fit">
                             <Image src={Academy} width={3} height={2} className="rounded-2xl" layout='responsive' />
+                        </div>
+
+                        <Link href={data.url} passHref><button className="bg-red-600 font-bold w-fit p-2 my-4 text-white px-5 rounded-md">
+                            <FaLink className="inline" /> {data.url}
+                        </button></Link>
+
+                        <div>
+                            <h3><span className="font-bold text-xl">Members</span> 100</h3>
+
+                            <ul className="my-4">
+                                {
+                                    data.members.map((member, x) => 
+                                    <div key={x} className="grid md:place-items-center grid-flow-col gap-5 mt-3 w-fit">
+                                        <Image src={member.image} height={36} width={36} className='rounded-full float-left' layout="fixed" />
+                                        <span>{member.name}</span>
+                                    </div>)
+                                }
+                            </ul>
+
+                            <Link href={data.url}><a className="text-red-500 text-xl font-medium">See all</a></Link>
                         </div>
                     </div>
                 </article>
