@@ -3,7 +3,7 @@ import Link from "next/link"
 
 const Card = ({title, description, image, url}) => {
     return (
-        <div className="bg-black text-white dark:bg-gray-600 rounded-2xl w-full h-fit p-6 grid gap-3 items-center">
+        <div className="bg-black text-white dark:bg-darkBlack rounded-2xl w-full h-fit p-6 grid gap-3 items-center">
             <div className="w-full mx-auto">
                 <Image src={image} height={7} width={12} className='rounded-2xl' layout="responsive" />
             </div>
