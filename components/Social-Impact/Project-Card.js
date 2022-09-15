@@ -12,7 +12,7 @@ const IconPack = {
 
 const ProjectCard = ({title, description, user: {image, name}, metric}) => {
     return (
-        <div className="shadow-xl dark:bg-gray-600 rounded-2xl w-full h-fit p-4 mb-2">
+        <div className="shadow-xl dark:bg-darkBlack rounded-2xl w-full h-fit p-4 mb-2">
             <h3 className="text-2xl font-black text-red-500">{title}</h3>
             <p className="my-3">{description}</p>
             <div className="flex flex-col md:flex-row justify-between">

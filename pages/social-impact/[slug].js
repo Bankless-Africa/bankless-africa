@@ -86,7 +86,7 @@ const SocialDetail = () => {
                                 Object.entries(data.population).map((entry, x) => 
                                 <div key={x}>
                                     <h5 className="font-bold">{entry[1]}</h5>
-                                    <span className="text-gray-700">{entry[0]}</span>
+                                    <span className="text-gray-700 dark:text-white">{entry[0]}</span>
                                 </div>)
                             }
                         </div>
