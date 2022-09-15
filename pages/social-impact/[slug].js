@@ -59,13 +59,13 @@ const SocialDetail = () => {
                                 <Image src={Academy} width={3} height={2} className="rounded-2xl" layout='responsive' />
                             </div>
 
-                            <p className="md:w-9/12 h-full">
+                            <div className="md:w-9/12 h-full">
                                 <h3 className="font-extrabold text-xl">Community name</h3>
                                 <p className="md:mt-5">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitorLorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit
                                 amet luctus venenatis, lectus magna fringilla urna, porttitor
                                 </p>
-                            </p>
+                            </div>
 
 
                         </div>
