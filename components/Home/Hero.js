@@ -25,9 +25,9 @@ const Hero = () => {
         </p>
 
         <div className="flex flex-col mt-10 md:flex-row md:space-x-4">
-        <a target="_blank" href="https://discord.gg/bankless"> 
+        <Link target="_blank" href="https://discord.gg/bankless"> 
         <button className="w-auto px-10 py-4 text-white bg-red-600 rounded-lg whitespace-nowrap hover:border-2 hover:border-red-600 hover:bg-black">Join us</button>
-        </a>
+        </Link>
         <Link href="/about">
           <button className="w-auto px-10 py-4 mt-4 text-white border-2 border-red-600 rounded-lg whitespace-nowrap md:mt-0">Learn more</button>
         </Link>
