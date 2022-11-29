@@ -12,6 +12,7 @@ export default function Home() {
   return (
     <div>
       <Head>
+      <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.4/dist/flowbite.min.css" />
         <title>Bankless Africa</title>
         <meta
           name='description'
@@ -33,6 +34,7 @@ export default function Home() {
 
       {/* Footer Section */}
       <Footer />
+      <script src="https://unpkg.com/flowbite@1.5.4/dist/flowbite.js"></script>
     </div>
   )
 }

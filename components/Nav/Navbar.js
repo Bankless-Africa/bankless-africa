@@ -60,6 +60,75 @@ const Navbar = ({ component }) => {
                       Learn Crypto
                     </a>
                   </Link> */}
+                  <Link href="">
+                    <a
+                      className={
+                        component === 'learn'
+                          ? 'px-3 py-2 text-lg font-bold text-red-600 cursor-pointer hover:font-black'
+                          : 'px-3 py-2 text-lg font-bold text-white cursor-pointer hover:font-black'
+                      }
+                    >
+                      Learn Crypto
+                    </a>
+                  </Link>
+
+                  <button
+                    id="dropdownDefault"
+                    data-dropdown-toggle="dropdown"
+                    class="text-white focus:ring-1 focus:outline-none font-medium rounded-lg text-lg px-4 py-2.5 text-center inline-flex items-center"
+                    type="button"
+                  >
+                    Contents{' '}
+                    <svg
+                      class="ml-2 w-4 h-4"
+                      aria-hidden="true"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M19 9l-7 7-7-7"
+                      ></path>
+                    </svg>
+                  </button>
+
+                  <div
+                    id="dropdown"
+                    class="hidden z-10 w-44 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700"
+                  >
+                    <ul
+                      class="py-1 text-sm text-gray-700 dark:text-gray-200"
+                      aria-labelledby="dropdownDefault"
+                    >
+                      <li>
+                        <a
+                          target="_blank"
+                          href="https://medium.com/@banklessafrica"
+                          className={
+                            'px-3 py-2 text-lg font-bold hover:text-red-600 cursor-pointer hover:font-black'
+                          }
+                        >
+                          Blogs
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          target="_blank"
+                          href="https://banklessafrica.substack.com/"
+                          className={
+                            'px-3 py-2 text-lg font-bold hover:text-red-600 cursor-pointer hover:font-black'
+                          }
+                        >
+                          {' '}
+                          Newsletter
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
 
                   <a
                     target="_blank"
