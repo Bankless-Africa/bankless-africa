@@ -60,17 +60,6 @@ const Navbar = ({ component }) => {
                       Learn Crypto
                     </a>
                   </Link> */}
-                  <Link href="">
-                    <a
-                      className={
-                        component === 'learn'
-                          ? 'px-3 py-2 text-lg font-bold text-red-600 cursor-pointer hover:font-black'
-                          : 'px-3 py-2 text-lg font-bold text-white cursor-pointer hover:font-black'
-                      }
-                    >
-                      Learn Crypto
-                    </a>
-                  </Link>
 
                   <button
                     id="dropdownDefault"
@@ -239,6 +228,12 @@ const Navbar = ({ component }) => {
                     Podcast
                   </a>
                 </Link>
+                  <a target='_blank' href="https://medium.com/@banklessafrica/" className="block px-3 py-2 text-base font-medium text-white rounded-md cursor-pointer hover:bg-red-600">
+                    Blog
+                  </a>
+                  <a target='_blank' href="https://banklessafrica.podbean.com/" className="block px-3 py-2 text-base font-medium text-white rounded-md cursor-pointer hover:bg-red-600">
+                    Newsletter
+                  </a>
                 <a
                   target="_blank"
                   className="px-3 py-2 text-lg font-bold text-white rounded-md cursor-pointer hover:bg-red-600"
