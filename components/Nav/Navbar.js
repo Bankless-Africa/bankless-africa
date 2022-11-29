@@ -3,9 +3,10 @@ import Image from 'next/image';
 import Link from 'next/link';
 import logo from '../../asset/Images/logo.png';
 import { Transition } from '@headlessui/react';
-const Navbar = ({component}) => {
+const Navbar = ({ component }) => {
   const [isOpen, setIsOpen] = useState(false);
-  const [isActive, setIsActive] = useState(false); console.log(component)
+  const [isActive, setIsActive] = useState(false);
+  console.log(component);
 
   return (
     <div>
@@ -31,16 +32,24 @@ const Navbar = ({component}) => {
               <div className="hidden md:block">
                 <div className="flex ml-0 space-x-14 md:space-x-7 xl:space-x-14 lg:ml-36">
                   <Link href="/">
-                    <a className={
-                      component === "home" || component === "" ? "px-3 py-2 text-lg font-bold text-red-600 cursor-pointer hover:font-black" : "px-3 py-2 text-lg font-bold text-white cursor-pointer hover:font-black"
-                    }>
+                    <a
+                      className={
+                        component === 'home' || component === ''
+                          ? 'px-3 py-2 text-lg font-bold text-red-600 cursor-pointer hover:font-black'
+                          : 'px-3 py-2 text-lg font-bold text-white cursor-pointer hover:font-black'
+                      }
+                    >
                       Home
                     </a>
                   </Link>
                   <Link href="/about">
-                    <a className={
-                      component === "about" ? "px-3 py-2 text-lg font-bold text-red-600 cursor-pointer hover:font-black" : "px-3 py-2 text-lg font-bold text-white cursor-pointer hover:font-black"
-                    }>
+                    <a
+                      className={
+                        component === 'about'
+                          ? 'px-3 py-2 text-lg font-bold text-red-600 cursor-pointer hover:font-black'
+                          : 'px-3 py-2 text-lg font-bold text-white cursor-pointer hover:font-black'
+                      }
+                    >
                       About
                     </a>
                   </Link>
@@ -51,17 +60,25 @@ const Navbar = ({component}) => {
                       Learn Crypto
                     </a>
                   </Link> */}
-                  <Link href="/podcast">
-                    <a className={
-                      component === "podcast" ? "px-3 py-2 text-lg font-bold text-red-600 cursor-pointer hover:font-black" : "px-3 py-2 text-lg font-bold text-white cursor-pointer hover:font-black"
-                    }>
-                      Podcast
-                    </a>
-                  </Link>
+
+                  <a
+                    target="_blank"
+                    href="https://banklessafrica.podbean.com/"
+                    className={
+                      component === 'podcast'
+                        ? 'px-3 py-2 text-lg font-bold text-red-600 cursor-pointer hover:font-black'
+                        : 'px-3 py-2 text-lg font-bold text-white cursor-pointer hover:font-black'
+                    }
+                  >
+                    Podcast
+                  </a>
+
                   <a
                     target="_blank"
                     className={
-                      component === "blog" ? "px-3 py-2 text-lg font-bold text-red-600 cursor-pointer hover:font-black" : "px-3 py-2 text-lg font-bold text-white cursor-pointer hover:font-black"
+                      component === 'blog'
+                        ? 'px-3 py-2 text-lg font-bold text-red-600 cursor-pointer hover:font-black'
+                        : 'px-3 py-2 text-lg font-bold text-white cursor-pointer hover:font-black'
                     }
                     href="https://medium.com/@banklessafrica/"
                     rel="noopener noreferrer"
