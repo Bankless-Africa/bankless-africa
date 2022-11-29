@@ -12,7 +12,7 @@ const Navbar = ({component}) => {
       <nav className="relative z-10 w-full bg-black shadow-sm">
         <div className="w-full">
           <div className="flex items-center w-full h-20">
-            <div className="flex items-center w-full mx-5 items lg:mx-14 xl:mx-24">
+            <div className="flex justify-between items-center w-full mx-5 items lg:mx-14 xl:mx-24">
               <div className="flex items-center justify-center flex-shrink-0 ">
                 <div className="w-40 h-20 cursor-pointer md:w-56 md:h-16">
                   <Link href="/">
@@ -44,13 +44,13 @@ const Navbar = ({component}) => {
                       About
                     </a>
                   </Link>
-                  <Link href="/learn-crypto">
+                  {/* <Link href="/learn-crypto">
                     <a className={
                       component === "learn" ? "px-3 py-2 text-lg font-bold text-red-600 cursor-pointer hover:font-black" : "px-3 py-2 text-lg font-bold text-white cursor-pointer hover:font-black"
                     }>
                       Learn Crypto
                     </a>
-                  </Link>
+                  </Link> */}
                   <Link href="/podcast">
                     <a className={
                       component === "podcast" ? "px-3 py-2 text-lg font-bold text-red-600 cursor-pointer hover:font-black" : "px-3 py-2 text-lg font-bold text-white cursor-pointer hover:font-black"
@@ -143,11 +143,11 @@ const Navbar = ({component}) => {
                     About
                   </a>
                 </Link>
-                <Link href="/learn-crypto">
+                {/* <Link href="/learn-crypto">
                   <a className="block px-3 py-2 text-base font-medium text-white rounded-md cursor-pointer hover:bg-red-600">
                     Learn Crypto
                   </a>
-                </Link>
+                </Link> */}
                 <Link href="/podcast">
                   <a className="block px-3 py-2 text-base font-medium text-white rounded-md cursor-pointer hover:bg-red-600">
                     Podcast
