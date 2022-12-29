@@ -10,7 +10,7 @@ const Navbar = ({ component }) => {
 
   return (
     <div>
-      <nav className="relative z-10 w-full bg-black shadow-sm">
+      <nav className="relative z-10 w-full dark:bg-black shadow-sm">
         <div className="w-full">
           <div className="flex items-center w-full h-20">
             <div className="flex justify-between items-center w-full mx-5 items lg:mx-14 xl:mx-24">
@@ -30,7 +30,7 @@ const Navbar = ({ component }) => {
                 </div>
               </div>
               <div className="hidden md:block">
-                <div className="flex ml-0 space-x-14 md:space-x-7 xl:space-x-14 lg:ml-36">
+                <div className="flex ml-0 space-x-14 dark:text-white md:space-x-7 xl:space-x-14 lg:ml-36">
                   <Link href="/">
                     <a
                       className={
@@ -55,7 +55,7 @@ const Navbar = ({ component }) => {
                   </Link>
                   {/* <Link href="/learn-crypto">
                     <a className={
-                      component === "learn" ? "px-3 py-2 text-lg font-bold text-red-600 cursor-pointer hover:font-black" : "px-3 py-2 text-lg font-bold text-white cursor-pointer hover:font-black"
+                      component === "learn" ? "px-3 py-2 text-lg font-bold text-red-600 cursor-pointer hover:font-black" : "px-3 py-2 text-lg font-bold cursor-pointer hover:font-black"
                     }>
                       Learn Crypto
                     </a>
@@ -118,7 +118,7 @@ const Navbar = ({ component }) => {
                       </li>
                     </ul>
                   </div>
-
+                  
                   <a
                     target="_blank"
                     href="https://banklessafrica.podbean.com/"
