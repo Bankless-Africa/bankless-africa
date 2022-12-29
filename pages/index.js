@@ -6,13 +6,13 @@ import Hero from '../components/Home/Hero'
 import Partner from '../components/Home/Partner'
 import Bankless from '../components/Home/Bankless'
 import Newsletter from '../components/Home/Newsletter'
+import Main from '../components/About/Main';
 
 
 export default function Home() {
   return (
     <div>
       <Head>
-      <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.4/dist/flowbite.min.css" />
         <title>Bankless Africa</title>
         <meta
           name='description'
@@ -28,13 +28,13 @@ export default function Home() {
       <main className='bg-black'>
         <Hero />
         <Bankless />
+        <Main />
         <Partner />
         <Newsletter />
       </main>
 
       {/* Footer Section */}
       <Footer />
-      <script src="https://unpkg.com/flowbite@1.5.4/dist/flowbite.js"></script>
     </div>
   )
 }
