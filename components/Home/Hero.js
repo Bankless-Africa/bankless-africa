@@ -28,7 +28,7 @@ const Hero = () => {
         <a target="_blank" href="https://discord.gg/bankless"> 
         <button className="w-auto px-10 py-4 text-white bg-red-600 rounded-lg whitespace-nowrap hover:border-2 hover:border-red-600 hover:bg-black">Join us</button>
         </a>
-        <Link href="/about">
+        <Link href="#about">
           <button className="w-auto px-10 py-4 mt-4 text-white border-2 border-red-600 rounded-lg whitespace-nowrap md:mt-0">Learn more</button>
         </Link>
         </div>
@@ -39,7 +39,7 @@ const Hero = () => {
         
         <Card page="/learn-crypto" title="Learn Crypto" description="Start your crypto journey with our easy to understand educated resources." url={card1} />
 
-        <Card page="/social-impact" title="Social Impact" description="Start your crypto journey with our easy to understand educated resources." url={card2} />
+        <Card page="#" title="Social Impact" description="Start your crypto journey with our easy to understand educated resources." url={card2} />
         <a href="https://banklessafrica.substack.com/" target='_blank'>
           <Card title="News" description="Start your crypto journey with our easy to understand educated resources." url={card3} />
         </a>
