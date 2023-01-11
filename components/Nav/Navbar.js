@@ -58,6 +58,17 @@ const Navbar = ({ component, className }) => {
                   </a>
 
 
+                  <Link href="/learn-crypto">
+                    <a
+                      className={
+                        component === 'learn'
+                          ? 'px-3 py-2 text-lg font-bold text-red-600 cursor-pointer hover:font-black'
+                          : 'px-3 py-2 text-lg font-bold text-white cursor-pointer hover:font-black'
+                      }
+                    >
+                      Learn Crypto
+                    </a>
+                  </Link>
                   {/* <Link href="/about">
                     <a
                       className={
