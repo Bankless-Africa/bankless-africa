@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import logo from '../../asset/Images/logo.png';
+import discord from '../../asset/Images/discord-svg.svg';
 import twitter from '../../asset/Images/twitter.png';
 import youtube from '../../asset/Images/youtube.png';
 import medium from '../../asset/Images/Medium.png';
@@ -57,6 +58,19 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex flex-row gap-10 mt-4">
+            <a
+              target="_blank"
+              className="px-3 py-2 text-lg font-bold text-white rounded-md cursor-pointer hover:bg-red-600"
+              href="https://discord.gg/rMJthQ8kXD"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src={discord}
+                alt="discord"
+                height={'25px'}
+                width={'25px'}
+              />
+            </a>
             <a
               target="_blank"
               className="px-3 py-2 text-lg font-bold text-white rounded-md cursor-pointer hover:bg-red-600"
@@ -133,7 +147,15 @@ const Footer = () => {
             </Link>
           </div>
         </div>
-        <div className="flex flex-row items-center justify-center mt-10 gap-9 sm:flex sm:flex-row sm:gap-20 sm:px-9 md:px-12 md:ml-10 lg:gap-28 lg:px-20">
+        <div className="flex flex-row items-center justify-center mt-10 gap-4 sm:flex sm:flex-row sm:gap-20 sm:px-9 md:px-12 md:ml-10 lg:gap-28 lg:px-20">
+          <a
+            target="_blank"
+            className="px-3 py-2 text-lg font-bold text-white rounded-md cursor-pointer hover:bg-red-600"
+            href="https://discord.gg/rMJthQ8kXD"
+            rel="noopener noreferrer"
+          >
+            <Image src={discord} alt="discord" height={'25px'} width={'25px'}/>
+          </a>
           <a
             target="_blank"
             className="px-3 py-2 text-lg font-bold text-white rounded-md cursor-pointer hover:bg-red-600"
