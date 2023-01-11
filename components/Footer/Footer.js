@@ -21,14 +21,14 @@ const Footer = () => {
         </p>
         <div className="flex flex-col">
           <div className="flex flex-row flex-1 xl:gap-10 2xl:gap-20">
-            {/* <div className="flex flex-col">
-              <div>
+            <div className="flex flex-col">
+              {/* <div>
                 <Link href="/about">
                   <a className="px-3 py-2 text-lg font-bold text-white rounded-md cursor-pointer hover:bg-red-600">
                     About Us
                   </a>
                 </Link>
-              </div>
+              </div> */}
               <div>
                 <Link href="/learn-crypto">
                   <a className="px-3 py-2 text-lg font-bold text-white rounded-md cursor-pointer hover:bg-red-600">
@@ -36,7 +36,7 @@ const Footer = () => {
                   </a>
                 </Link>
               </div>
-            </div> */}
+            </div>
             <div className="flex flex-col">
               <div>
                 <a
