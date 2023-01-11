@@ -9,6 +9,7 @@ function Course() {
       {/* <a href="https://app.banklessacademy.com/" target='_blank'>
         <Card title="Bankless Academy" description="Bankless Academy is on a mission to introduce 1 billion people to the exciting possibilities of cryptocurrency, DeFi, and beyond." url={card2} /></a> */}
       {/* <iframe src="https://app.banklessacademy.com/lessons/wallet-basics?embed=bankless-africa" width="100%" height="850px"></iframe> */}
+      {/* iframe tyo embed the whole of bankless africa on the learn crypto page */}
       <iframe src="https://app.banklessacademy.com" frameborder="0" width='100%' height='850px'></iframe>
     </div>
   )
