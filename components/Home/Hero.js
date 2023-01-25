@@ -5,7 +5,7 @@ import heroheader from '../../asset/Images/heroheader.png';
 import discord from '../../asset/Images/discord-svg.svg';
 import Card from './Card';
 
-import card1 from '../../asset/Images/crypto.png';
+import card1 from '../../asset/Images/BAXacademy.jpeg';
 import card2 from '../../asset/Images/socialimpact.png';
 import card3 from '../../asset/Images/news.png';
 
