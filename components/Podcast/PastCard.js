@@ -3,18 +3,373 @@ import Image from "next/image";
 
 function PastCard() {
   return (
-        <section className="max-w-6xl px-3 py-3 mx-auto relative bg-gradient-to-b from-red-600 to-red-600 rounded-3xl">
-<div className="container items-center max-w-6xl  mx-auto sm:px-20 md:px-32 lg:px-16">
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-10 my-12 sm:my-16">
-        <div className="flex flex-col">
-        <h2 className="font-bold text-2xl text-white sm:text-4xl leading-6 lg:text-3xl mt-3">Listen, learn, and lead others into the future</h2>
-        <p className="mt-4 text-gray-200 text-base sm:text-1xl leading-6 lg:text-1xl break-all">Every single episodes educates you on Web3, Defi, and Crypto.</p>    
+    <section>
+      <div className="flex-wrap justify-center px-5 my-10 sm:grid md:grid-cols-2 xl:grid-cols-3 3xl:flex">
+        <div className="p-2 cursor-pointer group">
+          <Image
+            layout="responsive"
+            src={box1}
+            width={350}
+            height={300}
+            alt="underline"
+          />
+          <div className="bg-[#263238] flex flex-col space-y-3">
+            <p className="px-8 mt-4 text-base text-white">
+              Hosted by <span className="text-red-600">Miss Purple</span>
+            </p>
+            <h1 className="px-8 text-lg font-semibold text-white">
+              The Art Of DAOing with Ap0ll0
+            </h1>
+            <p className="px-8 text-base text-white">
+              What’s a DAO? How does one contribute? We explore this and many
+              more from the contributor perspective in today’s episode with
+              SuperUman & BanklessDAO contributor Ap0ll0
+            </p>
+            <div className="flex justify-between px-2 pb-4 space-x-4 sm:px-8">
+              <button className="flex items-center p-3 text-white bg-red-600 rounded-lg">
+                <span className="mr-2">
+                  <svg
+                    className="w-6 h-6"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0
+                008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"
+                      clipRule="evenodd"
+                    ></path>
+                  </svg>
+                </span>
+                Play this episode
+              </button>
+              <button className="bg-[#34454E] p-3 text-white rounded-lg flex items-center">
+                <span className="mr-2">
+                  <svg
+                    className="w-6 h-6"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0
+                    00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                      clipRule="evenodd"
+                    ></path>
+                  </svg>
+                </span>
+                30 mins
+              </button>
+            </div>
+          </div>
         </div>
-      <div className=" flex flex-col"> <iframe title="banklessAfrica Podcast" allowtransparency="true" height="315" width="100%" scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=94twg-cca80a-pbblog-playlist&share=1&download=1&rtl=0&fonts=Arial&skin=1b1b1b&font-color=auto&logo_link=none&order=episodic&limit=10&filter=all&ss=a713390a017602015775e868a2cf26b0&btn-skin=c73a3a&size=315" allowFullScreen=""></iframe></div>
-    </div>
-  </div>
+        <div className="p-2 cursor-pointer group">
+          <Image
+            layout="responsive"
+            src={box1}
+            width={350}
+            height={300}
+            alt="underline"
+          />
+          <div className="bg-[#263238] flex flex-col space-y-3">
+            <p className="px-8 mt-4 text-base text-white">
+              Hosted by <span className="text-red-600">Miss Purple</span>
+            </p>
+            <h1 className="px-8 text-lg font-semibold text-white">
+              The Art Of DAOing with Ap0ll0
+            </h1>
+            <p className="px-8 text-base text-white">
+              What’s a DAO? How does one contribute? We explore this and many
+              more from the contributor perspective in today’s episode with
+              SuperUman & BanklessDAO contributor Ap0ll0
+            </p>
+            <div className="flex justify-between px-2 pb-4 space-x-4 sm:px-8">
+              <button className="flex items-center p-3 text-white bg-red-600 rounded-lg">
+                <span className="mr-2">
+                  <svg
+                    className="w-6 h-6"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0
+                008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"
+                      clipRule="evenodd"
+                    ></path>
+                  </svg>
+                </span>
+                Play this episode
+              </button>
+              <button className="bg-[#34454E] p-3 text-white rounded-lg flex items-center">
+                <span className="mr-2">
+                  <svg
+                    className="w-6 h-6"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0
+                    00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                      clipRule="evenodd"
+                    ></path>
+                  </svg>
+                </span>
+                30 mins
+              </button>
+            </div>
+          </div>
+        </div>
+        <div className="p-2 cursor-pointer group">
+          <Image
+            layout="responsive"
+            src={box1}
+            width={350}
+            height={300}
+            alt="underline"
+          />
+          <div className="bg-[#263238] flex flex-col space-y-3">
+            <p className="px-8 mt-4 text-base text-white">
+              Hosted by <span className="text-red-600">Miss Purple</span>
+            </p>
+            <h1 className="px-8 text-lg font-semibold text-white">
+              The Art Of DAOing with Ap0ll0
+            </h1>
+            <p className="px-8 text-base text-white">
+              What’s a DAO? How does one contribute? We explore this and many
+              more from the contributor perspective in today’s episode with
+              SuperUman & BanklessDAO contributor Ap0ll0
+            </p>
+            <div className="flex justify-between px-2 pb-4 space-x-4 sm:px-8">
+              <button className="flex items-center p-3 text-white bg-red-600 rounded-lg">
+                <span className="mr-2">
+                  <svg
+                    className="w-6 h-6"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0
+                008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"
+                      clipRule="evenodd"
+                    ></path>
+                  </svg>
+                </span>
+                Play this episode
+              </button>
+              <button className="bg-[#34454E] p-3 text-white rounded-lg flex items-center">
+                <span className="mr-2">
+                  <svg
+                    className="w-6 h-6"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0
+                    00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                      clipRule="evenodd"
+                    ></path>
+                  </svg>
+                </span>
+                30 mins
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="flex-wrap justify-center px-5 my-10 sm:grid md:grid-cols-2 xl:grid-cols-3 3xl:flex">
+        <div className="p-2 cursor-pointer group">
+          <Image
+            layout="responsive"
+            src={box1}
+            width={350}
+            height={300}
+            alt="underline"
+          />
+          <div className="bg-[#263238] flex flex-col space-y-3">
+            <p className="px-8 mt-4 text-base text-white">
+              Hosted by <span className="text-red-600">Miss Purple</span>
+            </p>
+            <h1 className="px-8 text-lg font-semibold text-white">
+              The Art Of DAOing with Ap0ll0
+            </h1>
+            <p className="px-8 text-base text-white">
+              What’s a DAO? How does one contribute? We explore this and many
+              more from the contributor perspective in today’s episode with
+              SuperUman & BanklessDAO contributor Ap0ll0
+            </p>
+            <div className="flex justify-between px-2 pb-4 space-x-4 sm:px-8">
+              <button className="flex items-center p-3 text-white bg-red-600 rounded-lg">
+                <span className="mr-2">
+                  <svg
+                    className="w-6 h-6"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0
+                008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"
+                      clipRule="evenodd"
+                    ></path>
+                  </svg>
+                </span>
+                Play this episode
+              </button>
+              <button className="bg-[#34454E] p-3 text-white rounded-lg flex items-center">
+                <span className="mr-2">
+                  <svg
+                    className="w-6 h-6"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0
+                    00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                      clipRule="evenodd"
+                    ></path>
+                  </svg>
+                </span>
+                30 mins
+              </button>
+            </div>
+          </div>
+        </div>
+        <div className="p-2 cursor-pointer group">
+          <Image
+            layout="responsive"
+            src={box1}
+            width={350}
+            height={300}
+            alt="underline"
+          />
+          <div className="bg-[#263238] flex flex-col space-y-3">
+            <p className="px-8 mt-4 text-base text-white">
+              Hosted by <span className="text-red-600">Miss Purple</span>
+            </p>
+            <h1 className="px-8 text-lg font-semibold text-white">
+              The Art Of DAOing with Ap0ll0
+            </h1>
+            <p className="px-8 text-base text-white">
+              What’s a DAO? How does one contribute? We explore this and many
+              more from the contributor perspective in today’s episode with
+              SuperUman & BanklessDAO contributor Ap0ll0
+            </p>
+            <div className="flex justify-between px-2 pb-4 space-x-4 sm:px-8">
+              <button className="flex items-center p-3 text-white bg-red-600 rounded-lg">
+                <span className="mr-2">
+                  <svg
+                    className="w-6 h-6"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0
+                008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"
+                      clipRule="evenodd"
+                    ></path>
+                  </svg>
+                </span>
+                Play this episode
+              </button>
+              <button className="bg-[#34454E] p-3 text-white rounded-lg flex items-center">
+                <span className="mr-2">
+                  <svg
+                    className="w-6 h-6"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0
+                    00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                      clipRule="evenodd"
+                    ></path>
+                  </svg>
+                </span>
+                30 mins
+              </button>
+            </div>
+          </div>
+        </div>
+        <div className="p-2 cursor-pointer group">
+          <Image
+            layout="responsive"
+            src={box1}
+            width={350}
+            height={300}
+            alt="underline"
+          />
+          <div className="bg-[#263238] flex flex-col space-y-3">
+            <p className="px-8 mt-4 text-base text-white">
+              Hosted by <span className="text-red-600">Miss Purple</span>
+            </p>
+            <h1 className="px-8 text-lg font-semibold text-white">
+              The Art Of DAOing with Ap0ll0
+            </h1>
+            <p className="px-8 text-base text-white">
+              What’s a DAO? How does one contribute? We explore this and many
+              more from the contributor perspective in today’s episode with
+              SuperUman & BanklessDAO contributor Ap0ll0
+            </p>
+            <div className="flex justify-between px-2  pb-4 space-x-4 sm:px-8">
+              <button className="flex items-center p-3 text-white bg-red-600 rounded-lg">
+                <span className="mr-2">
+                  <svg
+                    className="w-6 h-6"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0
+                008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"
+                      clipRule="evenodd"
+                    ></path>
+                  </svg>
+                </span>
+                Play this episode
+              </button>
+              <button className="bg-[#34454E] p-3 text-white rounded-lg flex items-center">
+                <span className="mr-2">
+                  <svg
+                    className="w-6 h-6"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0
+                    00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                      clipRule="evenodd"
+                    ></path>
+                  </svg>
+                </span>
+                30 mins
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-  )
+  );
 }
 
-export default PastCard
+export default PastCard;
