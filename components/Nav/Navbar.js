@@ -45,17 +45,17 @@ const Navbar = ({ component, className }) => {
                     </a>
                   </Link>
 
-                  <a
-                    target="_blank"
-                    href="https://banklessafrica.podbean.com/"
-                    className={
-                      component === 'Podcast'
+                  <Link
+                    href="/podcast">
+                    <a className={
+                      component === 'podcast'
                         ? 'px-3 py-2 text-lg font-bold text-red-600 cursor-pointer hover:font-black'
                         : 'px-3 py-2 text-lg font-bold text-white cursor-pointer hover:font-black'
                     }
                   >
                     Podcast
-                  </a>
+                    </a>
+                  </Link>
 
 
                   <Link href="/learn-crypto">
@@ -220,7 +220,7 @@ const Navbar = ({ component, className }) => {
                     Learn Crypto
                   </a>
                 </Link> */}
-                <Link href="https://banklessafrica.podbean.com/">
+                <Link href="/podcast">
                   <a className="block px-3 py-2 text-base font-medium text-white rounded-md cursor-pointer hover:bg-red-600">
                     Podcast
                   </a>
