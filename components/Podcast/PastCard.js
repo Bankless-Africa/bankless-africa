@@ -344,7 +344,7 @@ function PastCard() {
                     ></path>
                   </svg>
                 </span>
-                Play this episode
+                 Play this episode
               </button>
               <button className="bg-[#34454E] p-3 text-white rounded-lg flex items-center">
                 <span className="mr-2">
