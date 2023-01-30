@@ -15,7 +15,6 @@ const Podcast = () => {
                 <h1 className="text-xl font-bold text-center text-white sm:text-4xl md:text-6xl">Bankless Africa Podcast</h1>
             </div>
             <div className="pb-10 mt-3 bg-black">
-            <p class="ml-10 text-4xl text-white">Upcoming Podcast</p>
             <PastCard />
            
 <div class="container py-8 px-3 mx-0 min-w-full flex flex-col items-center">
