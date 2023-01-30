@@ -23,12 +23,12 @@ function PastCard() {
             <h1 className="px-8 text-lg font-semibold text-white">
               The Art Of DAOing with Ap0ll0
             </h1>
-            <p className="px-8 text-base text-white">
+            <p className="px-8 text-sm text-white">
               What’s a DAO? How does one contribute? We explore this and many
               more from the contributor perspective in today’s episode with
               SuperUman & BanklessDAO contributor Ap0ll0
             </p>
-            <div className="flex justify-between px-2 pb-4 space-x-4 sm:px-8">
+            <div className="flex justify-between py-6 px-2 pb-4 space-x-4 sm:px-8">
               <button className="flex items-center p-1 text-white bg-red-600 rounded-lg">
                 <span className="mr-2">
                   <svg
@@ -90,12 +90,12 @@ function PastCard() {
             <h1 className="px-8 text-lg font-semibold text-white">
               The Art Of DAOing with Ap0ll0
             </h1>
-            <p className="px-8 text-base text-white">
+            <p className="px-8 text-sm text-white">
               What’s a DAO? How does one contribute? We explore this and many
               more from the contributor perspective in today’s episode with
               SuperUman & BanklessDAO contributor Ap0ll0
             </p>
-            <div className="flex justify-between px-2 pb-4 space-x-4 sm:px-8">
+            <div className="flex justify-between py-6 px-2 pb-4 space-x-4 sm:px-8">
               <button className="flex items-center p-1 text-white bg-red-600 rounded-lg">
                 <span className="mr-2">
                   <svg
@@ -150,12 +150,12 @@ function PastCard() {
             <h1 className="px-8 text-lg font-semibold text-white">
               The Art Of DAOing with Ap0ll0
             </h1>
-            <p className="px-8 text-base text-white">
+            <p className="px-8 text-sm text-white">
               What’s a DAO? How does one contribute? We explore this and many
               more from the contributor perspective in today’s episode with
               SuperUman & BanklessDAO contributor Ap0ll0
             </p>
-            <div className="flex justify-between px-2 pb-4 space-x-4 sm:px-8">
+            <div className="flex justify-between py-6 px-2 pb-4 space-x-4 sm:px-8">
               <button className="flex items-center p-1 text-white bg-red-600 rounded-lg">
                 <span className="mr-2">
                   <svg
@@ -210,12 +210,12 @@ function PastCard() {
             <h1 className="px-8 text-lg font-semibold text-white">
               The Art Of DAOing with Ap0ll0
             </h1>
-            <p className="px-8 text-base text-white">
+            <p className="px-8 text-sm text-white">
               What’s a DAO? How does one contribute? We explore this and many
               more from the contributor perspective in today’s episode with
               SuperUman & BanklessDAO contributor Ap0ll0
             </p>
-            <div className="flex justify-between px-2 pb-4 space-x-4 sm:px-8">
+            <div className="flex justify-between py-6 px-2 pb-4 space-x-4 sm:px-8">
               <button className="flex items-center p-1 text-white bg-red-600 rounded-lg">
                 <span className="mr-2">
                   <svg
@@ -273,12 +273,12 @@ function PastCard() {
             <h1 className="px-8 text-lg font-semibold text-white">
               The Art Of DAOing with Ap0ll0
             </h1>
-            <p className="px-8 text-base text-white">
+            <p className="px-8 text-sm text-white">
               What’s a DAO? How does one contribute? We explore this and many
               more from the contributor perspective in today’s episode with
               SuperUman & BanklessDAO contributor Ap0ll0
             </p>
-            <div className="flex justify-between px-2 pb-4 space-x-4 sm:px-8">
+            <div className="flex justify-between py-6 px-2 pb-4 space-x-4 sm:px-8">
               <button className="flex items-center p-1 text-white bg-red-600 rounded-lg">
                 <span className="mr-2">
                   <svg
@@ -340,12 +340,12 @@ function PastCard() {
             <h1 className="px-8 text-lg font-semibold text-white">
               The Art Of DAOing with Ap0ll0
             </h1>
-            <p className="px-8 text-base text-white">
+            <p className="px-8 text-sm text-white">
               What’s a DAO? How does one contribute? We explore this and many
               more from the contributor perspective in today’s episode with
               SuperUman & BanklessDAO contributor Ap0ll0
             </p>
-            <div className="flex justify-between px-2 pb-4 space-x-4 sm:px-8">
+            <div className="flex justify-between py-6 px-2 pb-4 space-x-4 sm:px-8">
               <button className="flex items-center p-1 text-white bg-red-600 rounded-lg">
                 <span className="mr-2">
                   <svg
