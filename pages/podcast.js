@@ -1,6 +1,6 @@
 import Navbar from "../components/Nav/Navbar";
 import Footer from "../components/Footer/Footer";
-import PastCard from "../components/Podcast/PastCard";
+import PodCard from "../components/Podcast/PodCard";
 import Newsletter from "../components/Home/Newsletter";
 import Head from "next/head";
 const Podcast = () => {
@@ -17,7 +17,7 @@ const Podcast = () => {
         </h1>
       </div>
       <div className="pb-10 mt-3 bg-black">
-        <PastCard />
+        <PodCard />
       </div>
       <Newsletter />
       <Footer />
