@@ -50,3 +50,10 @@
       format('woff');
   }
 }
+
+
+.cardbg{
+  background: linear-gradient(to right, rgb(38, 24, 24), rgb(53, 23, 23), rgb(26, 19, 20));
+  opacity: 75px !important;
+  
+}
