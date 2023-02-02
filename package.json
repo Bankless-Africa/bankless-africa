@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.5.0",
+    "@heroicons/react": "^2.0.14",
     "animate.css": "^4.1.1",
     "aos": "^3.0.0-beta.6",
     "flowbite": "^1.5.5",
