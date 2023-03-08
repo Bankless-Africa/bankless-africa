@@ -19,7 +19,7 @@ const PodCard = () => {
   const [Readmore, setReadmore] = React.useState(false)
 
   return (
-    <div class="container mx-auto max-w-6xl">
+    <div className="container mx-auto max-w-6xl">
       <Slider
         dots={true}
         infinite={true}
@@ -29,14 +29,14 @@ const PodCard = () => {
         autoplay={true}
         autoplaySpeed={4000}
       >
-          <section class="cardbg max-w-6xl px-3 py-8 sm:px-20 md:px-32 lg:px-16 mx-auto relative rounded-3xl ">
-          <div class="container items-center">
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-10 my-12 sm:my-16">
-              <div class="flex flex-col">
+          <section className="cardbg max-w-6xl px-3 py-8 sm:px-20 md:px-32 lg:px-16 mx-auto relative rounded-3xl ">
+          <div className="container items-center">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-10 my-12 sm:my-16">
+              <div className="flex flex-col">
               <div className="aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4">
                         <Image className="rounded-lg object-cover shadow-lg" src={box1} alt="podcast"  /></div>
               </div>
-              <div class="flex flex-col">
+              <div className="flex flex-col">
                 <h2 className="text-3xl font-bold text-white">
                   Pidgin Parlour Crypto Podcast
                   <br />
