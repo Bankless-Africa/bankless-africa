@@ -13,12 +13,11 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Bankless Africa</title>
+        <title>Bankless Africa</title>favicon
         <meta
           name='description'
           content='An african media node for the Bankless crypto media DAO'
         />
-        <link rel='icon' href='/favicon.ico' />
       </Head>
 
       {/* Navbar Section */}

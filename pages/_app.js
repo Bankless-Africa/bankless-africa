@@ -1,4 +1,5 @@
 import '../styles/globals.css';
+import Head from "next/head";
 import Script from 'next/script';
 
 function MyApp({ Component, pageProps }) {
@@ -19,6 +20,9 @@ function MyApp({ Component, pageProps }) {
         `}
       </Script>
       <script src="../path/to/flowbite/dist/flowbite.js"></script>
+      <Head>
+        <link rel="shortcut icon" href="/favicon.png" />
+      </Head>
 
       <Component {...pageProps} />
     </>

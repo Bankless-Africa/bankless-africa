@@ -8,7 +8,6 @@ import { Dropdown } from 'flowbite-react';
 const Navbar = ({ component, className }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [isActive, setIsActive] = useState(false);
-  console.log(component);
 
   return (
     <div>
