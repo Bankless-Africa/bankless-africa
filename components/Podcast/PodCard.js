@@ -45,14 +45,12 @@ const PodCard = () => {
                 by Bankless Africa Podcast
               </p>
 
-              <p class="text-gray-200 text-base sm:text-1xl leading-6 lg:text-1xl break-all">
+              <p class="text-gray-200 text-base sm:text-1xl leading-6 lg:text-1xl break-all text-justify">
                 Welcome to the crypto information and education hub of Africa.
-                The gateway to web3.
-                <br />
-                This show highlights projects, ecosystems and people making
-                impact and driving adoption of crypto across Africa. Get
-                informed on all things bitcoin, Defi, NFTs, web3 culture and all
-                things crypto.
+                The gateway to web3. This show highlights projects, ecosystems
+                and<br/> people making impact and driving adoption of crypto across
+                Africa. Get informed on all things bitcoin, Defi, NFTs, web3
+                culture and<br/> all things crypto.
               </p>
 
               <div className="flex space-x-4 mt-10">
@@ -99,14 +97,14 @@ const PodCard = () => {
               </h2>
               <p className="text-xl mt-3 mb-3 text-white">by Pidgin Parlour</p>
 
-              <p class="text-gray-200 text-base sm:text-1xl leading-6 lg:text-1xl break-all">
-                Pidgin Parlor na centre of crypto education and culture for the
+              <p class="text-gray-200 text-base sm:text-1xl leading-6 lg:text-1xl break-all text-justify">
+                Pidgin Parlor na centre of crypto education and culture for the<br/>
                 African pipul wey dey speak Pidgin. The show go dey break down
                 plenti crypto concepts wey just dey confuse person into simple
                 forms wey everyday African go fit dey relate with. And all these
-                things go dey for pidgin, the localized language wey over 75
-                million Africans dey speak. This pidgin parlour crypto podcast
-                dey bring crypto education and culture come inside s...
+                things go <br/> dey for pidgin, the localized language wey over 75
+                million Africans<br/> dey speak. This pidgin parlour crypto podcast
+                dey bring crypto <br/>education and culture come inside s...
                 <span className="text-red-600">
                   <Link onClick={() => setReadmore(!Readmore)}>
                     {' '}
@@ -431,7 +429,7 @@ const PodCard = () => {
                       <span>
                         <FaRss className="h-6 w-6 text-gray-500" />
                       </span>
-                      <a href="#" className="text-sm ml-2">
+                      <a href="#" className="text-sm ml-2 line-through">
                         {' '}
                         Rss Podcast
                       </a>
