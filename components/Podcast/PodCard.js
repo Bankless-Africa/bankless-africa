@@ -31,7 +31,7 @@ const PodCard = () => {
               <div className="aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4">
                 <Image
                   className="rounded-lg object-cover shadow-lg"
-                  src={box2}
+                  src={box3}
                   alt="podcast"
                 />
               </div>
