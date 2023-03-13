@@ -12,7 +12,10 @@ module.exports = {
         hero: "url('../asset/Images/mobilebg.png')",
         aboutBg: "url('../components/About/Images/background.jpg')",
         aboutBg1: "url('../components/About/Images/background1.png')",
-        bgEdu: "url('../components/Podcast/Images/bgEdu.png')"
+        bgEdu: "url('../components/Podcast/Images/bgEdu.png')",
+        podcast1: "url('../components/Podcast/Images/bapodcast.jpg')",
+        podcast2: "url('../components/Podcast/Images/pidgin-parlor.jpg')",
+        podcast3: "url('../components/Podcast/Images/sats-and-gwei.jpg')",
       },
       backgroundSize: {
         "100%":"100%"
