@@ -28,7 +28,7 @@ const PodCard = () => {
         <div class="container items-center">
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-10 my-12 sm:my-16">
             <div class="flex flex-col">
-              <div className="aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4">
+              <div className="aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4 flex justify-center md:flex-none md:justify-start">
                 <Image
                   className="rounded-lg object-cover shadow-lg"
                   src={box3}
@@ -82,7 +82,7 @@ const PodCard = () => {
         <div class="container items-center">
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-10 my-12 sm:my-16">
             <div class="flex flex-col">
-              <div className="aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4">
+              <div className="aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4 flex justify-center md:flex-none md:justify-start">
                 <Image
                   className="rounded-lg object-cover shadow-lg"
                   src={box1}
@@ -142,7 +142,7 @@ const PodCard = () => {
         <div class="container items-center">
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-10 my-12 sm:my-16">
             <div class="flex flex-col">
-              <div className="aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4">
+              <div className="aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4 flex justify-center md:flex-none md:justify-start">
                 <Image
                   className="rounded-lg object-cover shadow-lg"
                   src={box2}
