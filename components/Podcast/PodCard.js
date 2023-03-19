@@ -64,7 +64,7 @@ const PodCard = () => {
                   <p className="ml-2"> Listen on...</p>
                 </button>
                 <button
-                  onClick={() => setOpen2(!Open2)}
+                  onClick={() => setOpen1(!Open1)}
                   className="flex items-center p-3 text-white border-2 border-white rounded-lg"
                 >
                   <span>

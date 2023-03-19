@@ -2,7 +2,6 @@ import Navbar from '../components/Nav/Navbar';
 import Footer from '../components/Footer/Footer';
 import PodCard from '../components/Podcast/PodCard';
 import Newsletter from '../components/Home/Newsletter';
-import box1 from '../components/Podcast/Images/podcast_cover.png';
 import Head from 'next/head';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
