@@ -44,41 +44,6 @@ const Navbar = ({ component, className }) => {
                     </a>
                   </Link>
 
-                  <Link
-                    href="/podcast">
-                    <a className={
-                      component === 'podcast'
-                        ? 'px-3 py-2 text-lg font-bold text-red-600 cursor-pointer hover:font-black'
-                        : 'px-3 py-2 text-lg font-bold text-white cursor-pointer hover:font-black'
-                    }
-                  >
-                    Podcast
-                    </a>
-                  </Link>
-
-
-                  <Link href="/learn-crypto">
-                    <a
-                      className={
-                        component === 'learn'
-                          ? 'px-3 py-2 text-lg font-bold text-red-600 cursor-pointer hover:font-black'
-                          : 'px-3 py-2 text-lg font-bold text-white cursor-pointer hover:font-black'
-                      }
-                    >
-                      Learn Crypto
-                    </a>
-                  </Link>
-                  {/* <Link href="/about">
-                    <a
-                      className={
-                        component === 'about'
-                          ? 'px-3 py-2 text-lg font-bold text-red-600 cursor-pointer hover:font-black'
-                          : 'px-3 py-2 text-lg font-bold text-white cursor-pointer hover:font-black'
-                      }
-                    >
-                      About
-                    </a>
-                  </Link> */}
                   <div className="px-3 py-2 bg-black hover:text-red-600 text-lg font-bold text-white">
                     <Dropdown
                       className="border-0 text-white bg-white font-bold text-lg cursor-pointer"
@@ -119,6 +84,43 @@ const Navbar = ({ component, className }) => {
                       </Dropdown.Item>
                     </Dropdown>
                   </div>
+
+                  
+
+                  <Link href="/learn-crypto">
+                    <a
+                      className={
+                        component === 'learn'
+                          ? 'px-3 py-2 text-lg font-bold text-red-600 cursor-pointer hover:font-black'
+                          : 'px-3 py-2 text-lg font-bold text-white cursor-pointer hover:font-black'
+                      }
+                    >
+                      Learn Crypto
+                    </a>
+                  </Link>
+                  <Link href="/podcast">
+                    <a
+                      className={
+                        component === 'podcast'
+                          ? 'px-3 py-2 text-lg font-bold text-red-600 cursor-pointer hover:font-black'
+                          : 'px-3 py-2 text-lg font-bold text-white cursor-pointer hover:font-black'
+                      }
+                    >
+                      Podcasts
+                    </a>
+                  </Link>
+                  {/* <Link href="/about">
+                    <a
+                      className={
+                        component === 'about'
+                          ? 'px-3 py-2 text-lg font-bold text-red-600 cursor-pointer hover:font-black'
+                          : 'px-3 py-2 text-lg font-bold text-white cursor-pointer hover:font-black'
+                      }
+                    >
+                      About
+                    </a>
+                  </Link> */}
+
                   {/* <Link href="/learn-crypto">
                     <a className={
                       component === "learn" ? "px-3 py-2 text-lg font-bold text-red-600 cursor-pointer hover:font-black" : "px-3 py-2 text-lg font-bold text-white cursor-pointer hover:font-black"
