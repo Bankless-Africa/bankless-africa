@@ -13,11 +13,28 @@ import { FaSpotify, FaApple, FaRss, FaGoogle, FaWifi } from 'react-icons/fa';
 import { Link } from 'react-scroll';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import {
+  FacebookShareButton,
+  FacebookIcon,
+  TelegramShareButton,
+  LinkedinShareButton,
+  RedditShareButton,
+  WhatsappShareButton,
+} from 'react-share';
+import {
+  TwitterShareButton,
+  TwitterIcon,
+  TelegramIcon,
+  WhatsappIcon,
+  LinkedinIcon,
+  RedditIcon,
+} from 'react-share';
 
 const PodCard = () => {
   const cancelButtonRef = useRef(null);
   const [Open, setOpen] = React.useState(false);
   const [Open1, setOpen1] = React.useState(false);
+  const [OpenShare, setOpenShare] = React.useState(false);
 
   const cancelReadmoreRef = useRef(null);
   const [Readmore, setReadmore] = React.useState(false);
@@ -48,9 +65,11 @@ const PodCard = () => {
               <p class="text-gray-200 text-base sm:text-1xl leading-6 lg:text-1xl break-all text-justify">
                 Welcome to the crypto information and education hub of Africa.
                 The gateway to web3. This show highlights projects, ecosystems
-                and<br/> people making impact and driving adoption of crypto across
-                Africa. Get informed on all things bitcoin, Defi, NFTs, web3
-                culture and<br/> all things crypto.
+                and
+                <br /> people making impact and driving adoption of crypto
+                across Africa. Get informed on all things bitcoin, Defi, NFTs,
+                web3 culture and
+                <br /> all things crypto.
               </p>
 
               <div className="flex space-x-4 mt-10">
@@ -64,7 +83,7 @@ const PodCard = () => {
                   <p className="ml-2"> Listen on...</p>
                 </button>
                 <button
-                  onClick={() => setOpen1(!Open1)}
+                  onClick={() => setOpenShare(!OpenShare)}
                   className="flex items-center p-3 text-white border-2 border-white rounded-lg"
                 >
                   <span>
@@ -98,13 +117,16 @@ const PodCard = () => {
               <p className="text-xl mt-3 mb-3 text-white">by Pidgin Parlour</p>
 
               <p class="text-gray-200 text-base sm:text-1xl leading-6 lg:text-1xl break-all text-justify">
-                Pidgin Parlor na centre of crypto education and culture for the<br/>
+                Pidgin Parlor na centre of crypto education and culture for the
+                <br />
                 African pipul wey dey speak Pidgin. The show go dey break down
                 plenti crypto concepts wey just dey confuse person into simple
                 forms wey everyday African go fit dey relate with. And all these
-                things go <br/> dey for pidgin, the localized language wey over 75
-                million Africans<br/> dey speak. This pidgin parlour crypto podcast
-                dey bring crypto <br/>education and culture come inside s...
+                things go <br /> dey for pidgin, the localized language wey over
+                75 million Africans
+                <br /> dey speak. This pidgin parlour crypto podcast dey bring
+                crypto <br />
+                education and culture come inside s...
                 <span className="text-red-600">
                   <Link onClick={() => setReadmore(!Readmore)}>
                     {' '}
@@ -124,7 +146,7 @@ const PodCard = () => {
                   <p className="ml-2"> Listen on...</p>
                 </button>
                 <button
-                  onClick={() => setOpen(!Open)}
+                  onClick={() => setOpenShare(!OpenShare)}
                   className="flex items-center p-3 text-white border-2 border-white rounded-lg"
                 >
                   <span>
@@ -177,7 +199,7 @@ const PodCard = () => {
                   <p className="ml-2"> Listen on...</p>
                 </button>
                 <button
-                  onClick={() => setOpen1(!Open1)}
+                  onClick={() => setOpenShare(!OpenShare)}
                   className="flex items-center p-3 text-white border-2 border-white rounded-lg"
                 >
                   <span>
@@ -449,6 +471,126 @@ const PodCard = () => {
                         Google podcast
                       </a>
                     </button>
+                  </div>
+                </Dialog.Panel>
+              </Transition.Child>
+            </div>
+          </div>
+        </Dialog>
+      </Transition.Root>
+
+      <Transition.Root show={OpenShare} as={Fragment}>
+        <Dialog
+          as="div"
+          className="relative z-10"
+          initialFocus={cancelButtonRef}
+          onClose={setOpenShare}
+        >
+          <Transition.Child
+            as={Fragment}
+            enter="ease-out duration-300"
+            enterFrom="opacity-0"
+            enterTo="opacity-100"
+            leave="ease-in duration-200"
+            leaveFrom="opacity-100"
+            leaveTo="opacity-0"
+          >
+            <div className="fixed inset-0 bg-black bg-opacity-75 transition-opacity" />
+          </Transition.Child>
+
+          <div className="fixed inset-0 z-10 overflow-y-auto">
+            <div className="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0">
+              <Transition.Child
+                as={Fragment}
+                enter="ease-out duration-300"
+                enterFrom="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+                enterTo="opacity-100 translate-y-0 sm:scale-100"
+                leave="ease-in duration-200"
+                leaveFrom="opacity-100 translate-y-0 sm:scale-100"
+                leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+              >
+                <Dialog.Panel className="relative transform overflow-hidden rounded-lg cardbg px-4 pt-5 pb-4 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg sm:p-6">
+                  <div>
+                    <div className="flex justify-end">
+                      <button
+                        aria-label="Close"
+                        className=" close"
+                        type="button"
+                        onClick={() => setOpenShare(false)}
+                        ref={cancelButtonRef}
+                      >
+                        <span aria-hidden={true}>
+                          <XMarkIcon className="text-white w-6 h-6" />
+                        </span>
+                      </button>
+                    </div>
+                    <div className="text-left">
+                      <Dialog.Title
+                        as="h3"
+                        className="text-lg font-medium leading-6 text-white"
+                      >
+                        Share
+                      </Dialog.Title>
+                      <div className="mt-2">
+                        <p className="text-sm text-white">Share Bankless Africa Podcasts on :</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex justify-evenly space-x-3 mt-10 mb-10">
+                    <div>
+                      <FacebookShareButton
+                        url={'https://banklessafrica.podbean.com/'}
+                        quote={
+                          'Listen to bankless Africa Podcast here, The best web3 podcast!'
+                        }
+                        hashtag="#banklessAfrica #banklessAfricaPodcast #podcast"
+                      >
+                        <FacebookIcon size={32} round />
+                      </FacebookShareButton>
+                    </div>
+                    <div>
+                      <TwitterShareButton
+                        url={'https://banklessafrica.podbean.com/'}
+                        title={'Bankless Africa Podcast'}
+                        hashtag="#banklessAfrica #banklessAfricaPodcast #podcast"
+                      >
+                        <TwitterIcon size={32} round />
+                      </TwitterShareButton>
+                    </div>
+                    <div>
+                      <TelegramShareButton
+                        url={'https://banklessafrica.podbean.com/'}
+                        title={'Bankless Africa Podcast'}
+                      >
+                        <TelegramIcon size={32} round />
+                      </TelegramShareButton>
+                    </div>
+                    <div>
+                      <WhatsappShareButton
+                        url={'https://banklessafrica.podbean.com/'}
+                        title={'Bankless Africa Podcast'}
+                      >
+                        <WhatsappIcon size={32} round />
+                      </WhatsappShareButton>
+                    </div>
+                    <div>
+                      <LinkedinShareButton
+                        url={'https://banklessafrica.podbean.com/'}
+                        title={'Bankless Africa Podcast'}
+                        summary={'Bankless Africa Podcast'}
+                        source={'wwww.banklessafrica.com'}
+                      >
+                        <LinkedinIcon size={32} round />
+                      </LinkedinShareButton>
+                    </div>
+                    <div>
+                      <RedditShareButton
+                        url={'https://banklessafrica.podbean.com/'}
+                        title={'Bankless Africa Podcast'}
+                      >
+                        <RedditIcon size={32} round />
+                      </RedditShareButton>
+                    </div>
                   </div>
                 </Dialog.Panel>
               </Transition.Child>
