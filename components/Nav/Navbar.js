@@ -82,6 +82,19 @@ const Navbar = ({ component, className }) => {
                           Newsletter
                         </a>
                       </Dropdown.Item>
+
+                      <Dropdown.Item>
+                        <a
+                          target="_blank"
+                          href="https://mirror.xyz/dashboard"
+                          className={
+                            'px-3 py-2 text-lg text-black font-bold hover:text-red-600 cursor-pointer hover:font-black'
+                          }
+                        >
+                          {' '}
+                          Articles
+                        </a>
+                      </Dropdown.Item>
                     </Dropdown>
                   </div>
 
