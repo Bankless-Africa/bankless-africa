@@ -82,10 +82,21 @@ const Navbar = ({ component, className }) => {
                           Newsletter
                         </a>
                       </Dropdown.Item>
+
+                      <Dropdown.Item>
+                        <a
+                          target="_blank"
+                          href="https://mirror.xyz/dashboard"
+                          className={
+                            'px-3 py-2 text-lg text-black font-bold hover:text-red-600 cursor-pointer hover:font-black'
+                          }
+                        >
+                          {' '}
+                          Articles
+                        </a>
+                      </Dropdown.Item>
                     </Dropdown>
                   </div>
-
-                  
 
                   <Link href="/learn-crypto">
                     <a
@@ -221,18 +232,75 @@ const Navbar = ({ component, className }) => {
                     Learn Crypto
                   </a>
                 </Link> */}
+
+                <div className="px-3 py-2 bg-black hover:text-red-600 font-bold text-white">
+                  <Dropdown
+                    className="border-0 text-white bg-white font-bold cursor-pointer"
+                    label="Contents"
+                    size={{
+                      'font-size': '18px',
+                    }}
+                    color={{
+                      ButtonColors: 'black',
+                    }}
+                    placement="auto"
+                    title="Contents"
+                    // trigger="hover"
+                  >
+                    <Dropdown.Item>
+                      <a
+                        target="_blank"
+                        href="https://medium.com/@banklessafrica"
+                        className={
+                          'px-3 py-2 text-lg text-black font-bold hover:text-red-600 cursor-pointer hover:font-black'
+                        }
+                      >
+                        Blogs
+                      </a>
+                    </Dropdown.Item>
+
+                    <Dropdown.Item>
+                      <a
+                        target="_blank"
+                        href="https://banklessafrica.substack.com/"
+                        className={
+                          'px-3 py-2 text-lg text-black font-bold hover:text-red-600 cursor-pointer hover:font-black'
+                        }
+                      >
+                        {' '}
+                        Newsletter
+                      </a>
+                    </Dropdown.Item>
+
+                    <Dropdown.Item>
+                      <a
+                        target="_blank"
+                        href="https://mirror.xyz/dashboard"
+                        className={
+                          'px-3 py-2 text-lg text-black font-bold hover:text-red-600 cursor-pointer hover:font-black'
+                        }
+                      >
+                        {' '}
+                        Articles
+                      </a>
+                    </Dropdown.Item>
+                  </Dropdown>
+                </div>
+
                 <Link href="/podcast">
                   <a className="block px-3 py-2 text-base font-medium text-white rounded-md cursor-pointer hover:bg-red-600">
                     Podcast
                   </a>
                 </Link>
-                <a
+
+                {/* <a
                   target="_blank"
                   href="https://medium.com/@banklessafrica/"
                   className="block px-3 py-2 text-base font-medium text-white rounded-md cursor-pointer hover:bg-red-600"
                 >
                   Blog
-                </a>
+                </a> */}
+                
                 <a
                   target="_blank"
                   href="https://banklessafrica.podbean.com/"
